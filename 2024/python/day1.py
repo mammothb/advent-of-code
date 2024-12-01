@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 def main():
-    with open(Path(__file__).resolve().parent / "day1.txt") as infile:
+    with open(Path(__file__).resolve().parents[1] / "data" / "day1.txt") as infile:
         l_arr: list[int] = []
         r_arr: list[int] = []
         for line in infile.readlines():
