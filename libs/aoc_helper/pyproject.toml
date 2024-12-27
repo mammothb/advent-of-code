@@ -1,0 +1,17 @@
+[project]
+name = "aoc-helper"
+version = "0.1.0"
+description = "Helper functions for AOC"
+readme = "README.md"
+authors = [
+    { name = "mmb L" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+dev-mode-exact = true
