@@ -1,7 +1,9 @@
 from typing import Protocol, TypeVar
 
-T = TypeVar("T")
+Coord = tuple[int, int]
 Numeric = complex | float | int
+
+T = TypeVar("T")
 
 
 class Subtractable(Protocol):
